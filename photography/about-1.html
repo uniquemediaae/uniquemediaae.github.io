@@ -7,18 +7,20 @@
     <!-- META -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="media production, photography services, Abu Dhabi, UAE, professional photography, event photography, commercial photography, portrait photography, corporate photography, videography services, creative media solutions, photography studio, drone photography, product photography, wedding photography, lifestyle photography, marketing photography">
+    <meta name="author" content="PN">
     <meta name="robots" content="" />    
-    <meta name="description" content="" />
+    <meta name="description" content="Discover top-notch media production and photography services in Abu Dhabi, UAE. We specialize in event photography, commercial shoots, wedding photography, and creative media solutions tailored to your needs. Capture your moments with our professional team and high-quality equipment.">
     
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="icon" href="images/logo/uniquemedia.png" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo/uniquemedia.png" />
     
     <!-- PAGE TITLE HERE -->
-    <title>Dronza Template | About Page 1</title>
-    
+    <title>UNIQUE MEDIA PRODUCTION PHOTOGRAPHY SERVICE LLC</title>
+    <meta name="description" content="Discover top-notch media production and photography services in Abu Dhabi, UAE. We specialize in event photography, commercial shoots, wedding photography, and creative media solutions tailored to your needs. Capture your moments with our professional team and high-quality equipment.">
+        <meta name="keywords" content="media production, photography services, Abu Dhabi, UAE, professional photography, event photography, commercial photography, portrait photography, corporate photography, videography services, creative media solutions, photography studio, drone photography, product photography, wedding photography, lifestyle photography, marketing photography">
+        <meta name="author" content="PN">
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -46,7 +48,7 @@
         <!-- FLATICON STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">  
     <!-- THEME COLOR CHANGE STYLE SHEET -->
-    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-1.css">
+    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-9.css">
  
     
  
@@ -63,6 +65,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
  
+    <script>
+		var isNS = (navigator.appName == "PN") ? 1 : 0;
+		if(navigator.appName == "PN") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+		function mischandler(){
+		return false;
+		}
+		function mousehandler(e){
+		var myevent = (isNS) ? e : event;
+		var eventbutton = (isNS) ? myevent.which : myevent.button;
+		if((eventbutton==2)||(eventbutton==3)) return false;
+		}
+		document.oncontextmenu = mischandler;
+		document.onmousedown = mousehandler;
+		document.onmouseup = mousehandler;
+		</script>
+
 </head>
 
 <body>
@@ -79,7 +97,7 @@
                             <div class="logo-header">
                                 <div class="logo-header-inner logo-header-one">
                                     <a href="index.html">
-                                    <img src="images/logo-white.png" alt="" />
+                                    <img src="images/logo/UniqueMediaProduction.png" alt="" />
                                     </a>
                                 </div>
                             </div>  
@@ -100,7 +118,7 @@
                                 </div>
                                 <div class="extra-cell">
                                     <div class="header-nav-request">
-                                        (+291) 912-3456-073 
+                                        (+971) 2-234567 
                                     </div>
                                 </div>                                
                                  
@@ -111,65 +129,43 @@
                             <div class="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
                         
                                 <ul class=" nav navbar-nav">
-                                    <li><a href="javascript:;">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Home 1</a></li>                                        
-                                            <li><a href="index-2.html">Home 2</a></li>
-                                            <li><a href="index-3.html">Home 3</a></li>
-                                            <li><a href="index-4.html">Home 4</a></li>                                                                                        
-                                        </ul>                                 
+                                    <li><a href="index.html">Home</a>
+                                                                       
                                     </li>
                                     
-                                    <li class="active"><a href="javascript:;">About</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about-1.html">About 1</a></li>                                        
-                                            <li><a href="about-2.html">About 2</a></li>
-                                        </ul>                                
+                                    <li class="active"><a href="about-1.html">About</a>
+                                                                     
                                     </li>                                    
                                     <li><a href="javascript:;">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="services-1.html">Services one</a></li>                                        
-                                            <li><a href="services-2.html">Services Two</a></li>
-                                            <li><a href="service-detail.html">Service detail</a></li>                                              
-                                                                                       
+                                            <li><a href="services-1.html">Event Photo & Video</a></li>                                        
+                                            <li><a href="services-2.html">Wedding Photography</a></li>
+                                            <li><a href="service-detail.html">Product Photography</a></li>  
+                                            <li><a href="service-detail.html">Photography Studio</a></li>
+                                            <li><a href="service-detail.html">Drone Photography</a></li>                                             
+                                            <li><a href="service-detail.html">Couple Photoshoots</a></li>                                           
                                         </ul>                                
                                     </li>
                                     <li><a href="javascript:;">Gallery</a>
                                         <ul class="sub-menu">
-                                            <li><a href="gallery-grid.html">Gallery Grid</a></li>                                        
-                                            <li><a href="gallery-masonry.html">Gallery Masonry</a></li>
-                                            <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
-                                            <li><a href="gallery-detail.html">Gallery Detail</a>
+                                            <li><a href="gallery-grid.html">Photography</a></li>                                        
+                                            <li><a href="gallery-masonry.html">Videography</a></li>
+                                            <li><a href="gallery-carousel.html">Film Cameras</a></li>
+                                           
                                         </ul>                                
                                    </li>
-                                    <li>
-                                        <a href="javascript:;">Pages</a>
-                                        <ul class="sub-menu">
-
-                                            <li><a href="icon-font.html">Icon Font</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-single.html">Team Single</a></li>                                            
-                                            <li><a href="Faq.html">FAQ</a></li>
-                                            <li><a href="error-404.html">Error 404</a></li>
- 
-                                    		<li><a href="contact-1.html">Contact us</a></li>                                                                                             
-                                        </ul>
-                                    </li>                                   
-                                    <li><a href="javascript:;">Shop</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="product.html">Shop</a></li>                                        
-                                            <li><a href="product-detail.html">Shop Detail</a></li>
-                                            <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="wish-list.html">Wishlist</a></li>                                            
-                                        </ul>                                
-                                   </li>                                   
+                                                                     
+                                                                     
                                     <li><a href="javascript:;">Blog</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>                                        
-                                            <li><a href="blog-list-sidebar.html">Blog List</a></li>
-                                            <li><a href="blog-post-right-sidebar.html">Blog Post</a></li>
+                                            <li><a href="blog-grid.html">Photography</a></li>                                        
+                                            <li><a href="blog-list-sidebar.html">Fashion Photography</a></li>
+                                            <li><a href="blog-post-right-sidebar.html">Wild Life</a></li>
                                         </ul>                                
+                                    </li>                                                                
+
+                                    <li>
+                                        <li><a href="contact-1.html">Contact Us</a>  
                                     </li>                                                                
 
                                
@@ -215,7 +211,7 @@
                             <div>
                                 <ul class="wt-breadcrumb breadcrumb-style-2">
                                     <li><a href="javascript:void(0);">Home</a></li>
-                                    <li>About 1</li>
+                                    <li>About </li>
                                 </ul>
                             </div>
                         
@@ -248,20 +244,16 @@
                                             <div>About</div>
                                             <div  class="sep-leaf-right"></div>
                                         </div>
-                                        <h2>Specializing in Drone Services, and Aerial Photography</h2>
-                                        <p>There are many variations of passages of lorem Ipsum available, 
-                                              but the majority have suffered alteration in some form, by injected humour,
-                                              or randomised words which don't look even slightly.
+                                        <h2>Unique Media Production Photography Service LLC
+                                            "Your Vision, Our Lens"</h2>
+                                        <p>At Unique Media Production Photography Service LLC, we are passionate about capturing life’s most memorable moments and transforming them into timeless visuals. With a keen eye for detail and a deep appreciation for creative expression, we specialize in delivering high-quality photography and videography services that are as unique as our clients.
                                         </p>
                                         
-                                     
+                                        <p>Our commitment to excellence goes beyond just taking great shots. We combine technical expertise with an artistic approach, using the latest equipment and innovative techniques to bring out the best in every frame. At Unique Media Production, we understand that every moment is unique, and we strive to create images and videos that not only capture those moments but make them unforgettable.
+                                        </p>
                                     </div>
                                     <!-- TITLE END-->  
-                                    <ul class="site-list-style-one icon-style">
-                                        <li><i class="flaticon-drone-7"></i>Mobile Device Supported</li>
-                                        <li><i class="flaticon-remote-control-1"></i>Easy integrative control</li>
-                                        <li><i class="flaticon-control"></i>Customized Commands</li>
-                                    </ul>
+                                    
                                     
                                     <a href="about-1.html" class="site-button site-btn-effect">Read More</a> 
                                     </div>                                                                
@@ -307,11 +299,11 @@
                                             </div> 
                                                     
                                             <div class="d-icon-box-title title-style-2 site-text-secondry">
-                                                <h3  class="s-title-one">How To Use Battery</h3>
+                                                <h3  class="s-title-one">Photography</h3>
                                             </div>
                                             
                                             <div class="d-icon-box-content">
-                                                <p>The majority have suffered alteration in some form, by injected humour, words which don't look even slightly.</p>
+                                                <p></p>
                                                 <a href="javascript:;" class="site-button-link site-text-primary">Read More</a>
                                             </div>
                                                                                         
@@ -330,11 +322,11 @@
                                             </div> 
                                                     
                                             <div class="d-icon-box-title title-style-2 site-text-secondry">
-                                                <h3  class="s-title-one">How To Play Video</h3>
+                                                <h3  class="s-title-one">Videography</h3>
                                             </div>
                                             
                                             <div class="d-icon-box-content">
-                                                <p>The majority have suffered alteration in some form, by injected humour, words which don't look even slightly.</p>
+                                                <p></p>
                                                 <a href="javascript:;" class="site-button-link site-text-primary">Read More</a>
                                             </div>
                                                                                         
@@ -353,11 +345,11 @@
                                             </div> 
                                                     
                                             <div class="d-icon-box-title title-style-2 site-text-secondry">
-                                                <h3  class="s-title-one">How To Use Controler</h3>
+                                                <h3  class="s-title-one">Film Cameras</h3>
                                             </div>
                                             
                                             <div class="d-icon-box-content">
-                                                <p>The majority have suffered alteration in some form, by injected humour, words which don't look even slightly.</p>
+                                                <p></p>
                                                 <a href="javascript:;" class="site-button-link site-text-primary">Read More</a>
                                             </div>
                                                                                         
@@ -369,9 +361,9 @@
                         </div>
                         
                         <div class="quality-video-section">
-                            <span>Delivering help and hope to people through sponsorship</span>
+                            <span>Crafting Memories One Shot at a Time</span>
                             <div class="quality-video">
-                                 <a href="https://www.youtube.com/watch?v=c1XNqw2gSbU" class="mfp-video play-now">
+                                 <a href="" class="mfp-video play-now">
                                     <i class="icon fa fa-play"></i>
                                     <span class="ripple"></span>
                                 </a>                                  
@@ -385,102 +377,7 @@
 
             
            
-            
-            <!-- OUR TEAM START -->
-            <div class="section-full p-t80 p-b50 bg-gray">
-                <div class="container">
-                    
-                    <!-- TITLE START-->
-                    <div class="section-head center wt-small-separator-outer text-center">
-                        <div class="wt-small-separator site-text-primary">
-                            <div  class="sep-leaf-left"></div>
-                            <div>Afrial Photography</div>
-                            <div  class="sep-leaf-right"></div>
-                        </div>
-                        <h2>Our Dedicated Team</h2>
-                    </div>
-                    <!-- TITLE END-->
-                            
-                    <div class="section-content">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
-                                <div class="wt-team-2">
-                                    
-                                    <div class="wt-media">
-                                        <img src="images/team/pic1.jpg" alt="">
-                                    </div>                                   
-
-                                    <div class="wt-info">
-                                        <div class="team-detail">
-                                            <span class="title-style-2 team-position site-text-primary">Photographer</span>                                        
-                                            <h3 class="m-t0 team-name"><a href="team-single.html">Staephan Humbert</a></h3>
-                                        </div>
-                                        <div class="team-social-center">
-                                            <ul class="team-social-bar">
-                                                <li><a href="javascript:void(0);">Facebook</a></li>
-                                                <li><a href="javascript:void(0);">Twitter</a></li>
-                                                <li><a href="javascript:void(0);">Linkedin</a></li>
-                                            </ul>
-                                        </div>                                        
-                                    </div>
-                            
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
-                                <div class="wt-team-2">
-                                    
-                                    <div class="wt-media">
-                                        <img src="images/team/pic2.jpg" alt="">
-                                    </div>                                   
-
-                                    <div class="wt-info">
-                                        <div class="team-detail">
-                                            <span class="title-style-2 team-position site-text-primary">Creative Director</span>                                        
-                                            <h3 class="m-t0 team-name"><a href="team-single.html" >Leo Simon</a></h3>
-                                        </div>
-                                        <div class="team-social-center">
-                                            <ul class="team-social-bar">
-                                                <li><a href="javascript:void(0);">Facebook</a></li>
-                                                <li><a href="javascript:void(0);">Twitter</a></li>
-                                                <li><a href="javascript:void(0);">Linkedin</a></li>
-                                            </ul>
-                                        </div>                                        
-                                    </div>
-                            
-                                </div>
-                            </div>
-                            
-                            <div class="col-lg-4 col-md-6 col-sm-12 m-b30">
-                                <div class="wt-team-2">
-                                    
-                                    <div class="wt-media">
-                                        <img src="images/team/pic3.jpg" alt="">
-                                    </div>                                   
-
-                                    <div class="wt-info">
-                                        <div class="team-detail">
-                                            <span class="title-style-2 team-position site-text-primary">Photographer</span>                                        
-                                            <h3 class="m-t0 team-name"><a href="team-single.html">John Casey</a></h3>
-                                        </div>
-                                        <div class="team-social-center">
-                                            <ul class="team-social-bar">
-                                                <li><a href="javascript:void(0);">Facebook</a></li>
-                                                <li><a href="javascript:void(0);">Twitter</a></li>
-                                                <li><a href="javascript:void(0);">Linkedin</a></li>
-                                            </ul>
-                                        </div>                                        
-                                    </div>
-                            
-                                </div>
-                            </div>                                                        
-                            
-                        </div>
-                    </div>      
-
-                </div>
-            </div>   
-            <!-- OUR TEAM SECTION END -->  
+             
       
                        
             <!-- CLIENT LOGO SECTION START -->
@@ -649,8 +546,7 @@
 
                             
                             <div class="col-lg-7 col-md-6 wt-separator-two-part-right text-left">
-                                <p>There are many variations of passages of lorem Ipsum available, but the majority have 
-suffered alteration in some form, by injected humour, or randomised words which don't look even slightly.</p>
+                                <p>Unique Media Production Photography Service LLC "Your Vision, Our Lens"</p>
                                 
                             </div>
                                                         
@@ -1038,138 +934,140 @@ suffered alteration in some form, by injected humour, or randomised words which 
         </div>
         <!-- CONTENT END -->
         
-        <!-- FOOTER START -->
-        <footer class="site-footer footer-large footer-dark text-white footer-style1" >
+                 <!-- FOOTER START -->
+                 <footer class="site-footer footer-large footer-dark text-white footer-style1" >
 
         
-            <!-- FOOTER BLOCKES START -->  
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                    
-                        <div class="col-lg-3 col-md-6"> 
-
-                            <div class="widget recent-posts-entry">
-                                <h3 class="widget-title">Get in Touch</h3>                            
-                               <ul class="widget_address"> 
-                                    <li><i class="fa fa-map-marker"></i>92 Princess Road, parkvenue Greater London, NW18JR, UK</li>
-                                    <li><i class="fa fa-envelope"></i>contact123@gmail.com</li>
-                                    <li> <i class="fa fa-phone"></i>(+291) 912-3456-073</li>
-                                </ul>  
-                            </div>
-
+                    <!-- FOOTER BLOCKES START -->  
+                    <div class="footer-top">
+                        <div class="container">
+                            <div class="row">
                             
-                        </div> 
-
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="widget widget_services">
-                                <h3 class="widget-title">Useful links</h3>
-                                <ul>
-                                    <li><a href="about-1.html">About</a></li>
-                                    <li><a href="our-prices.html">Pricing Plan </a></li>
-                                    <li><a href="Faq.html">FAQ</a></li>
-                                    <li><a href="team-single.html">Our Team </a></li>
-                                    <li><a href="services-1.html">Services </a></li>
+                                <div class="col-lg-3 col-md-6"> 
+        
+                                    <div class="widget recent-posts-entry">
+                                        <h3 class="widget-title">Get in Touch</h3>                            
+                                       <ul class="widget_address"> 
+                                            <li><i class="fa fa-map-marker"></i>Abu Dhabi, United Arab Emirates</li>
+                                            <li><i class="fa fa-envelope"></i>info@uniquemedia.ae</li>
+                                            <li> <i class="fa fa-phone"></i>(+971) 2-123-456</li>
+                                        </ul>  
+                                    </div>
+        
+                                    
+                                </div> 
+        
+        
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="widget widget_services">
+                                        <h3 class="widget-title">Useful links</h3>
+                                        <ul>
+                                            <li><a href="about-1.html">About</a></li>
+                                            <li><a href="our-prices.html">Services </a></li>
+                                            <li><a href="Faq.html">FAQ</a></li>
+                                            <li><a href="team-single.html">Gallery </a></li>
+                                            <li><a href="services-1.html">Contact Us </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="widget recent-posts-entry">
+                                        <h3 class="widget-title">Recent Post</h3>
+                                        <div class="section-content">
+                                            <div class="widget-post-bx">
+                                                <div class="widget-post clearfix">
+                                                    <div class="wt-post-media">
+                                                        <img src="images/blog/recent-blog/pic1.jpg" alt="">
+                                                    </div>
+                                                    <div class="wt-post-info">
+                                                        <div class="wt-post-meta">
+                                                            <ul>
+                                                                <li class="post-author">25 May</li>
+                                                            </ul>
+                                                        </div>                                            
+                                                        <div class="wt-post-header">
+                                                            <a href="javascript:;" class="post-title">Capture the most wonderful moments</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="widget-post clearfix">
+                                                    <div class="wt-post-media">
+                                                        <img src="images/blog/recent-blog/pic2.jpg" alt="">
+                                                    </div>
+                                                    <div class="wt-post-info">
+                                                        <div class="wt-post-meta">
+                                                            <ul>
+                                                                <li class="post-author">15 Dec</li>
+                                                            </ul>
+                                                        </div>                                            
+                                                        <div class="wt-post-header">
+                                                            <a href="javascript:;" class="post-title">Memorize unforgettable spontaneous moments</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                               <div class="col-lg-3 col-md-6">  
+                                <div class="widget widget_newsletter">
+                                    <h3 class="widget-title">Newsletter</h3>
+                                        <p>Join our subscribers list to get the latest news, updates and special offers delivered directly in your inbox.</p>
+                                        <div class="newsletter-input">
+                                          <div class="input-group">
+                                            <input id="email" type="text" class="form-control" name="email" placeholder="Enter your email">
+                                            <div class="input-group-append">
+                                              <button type="submit" class="input-group-text nl-search-btn text-black site-bg-primary title-style-2">Subscribe</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                </div>
+                                
+                               </div> 
+        
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FOOTER COPYRIGHT -->
+                            
+                    <div class="footer-middle">
+                    
+                            <div class="container">
+                            <div class="footer-middle-content">
+                                <div class="logo-footer">
+                                    <a href="index.html"><img src="images/logo/UniqueMediaProduction.png" alt="" ></a>
+                                </div>
+                                
+                                <ul class="copyrights-nav"> 
+                                    <li><a href="javascript:void(0);">Terms  &amp; Condition</a></li>
+                                    <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                                    <li><a href="contact-1.html">Contact Us</a></li>
                                 </ul>
+                                
+                                <ul class="social-icons  wt-social-links footer-social-icon">
+                                    <li><a href="javascript:void(0);" class="fa fa-whatsapp"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+                                    <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
+                                    <li><a href="https://www.linkedin.com/company/unique-media-uae" target="_blank" class="fa fa-linkedin"></a></li>
+                                    <li><a href="https://www.instagram.com/uniquemediaproductions_uae/" target="_blank" class="fa fa-instagram"></a></li>
+                                </ul>                     
                             </div>
+                        </div>  
+                                                          
+                    </div>                    
+                    <div class="footer-bottom">
+                      <div class="container">
+                        <div class="wt-footer-bot-left d-flex justify-content-center">
+                            <span class="copyrights-text">© 2025 Unique Media Production. Designed By <span class="site-text-primary">PN</span></span>
                         </div>
-                        
-                        <div class="col-lg-3 col-md-6">
-							<div class="widget recent-posts-entry">
-                                <h3 class="widget-title">Recent Post</h3>
-                                <div class="section-content">
-                                    <div class="widget-post-bx">
-                                        <div class="widget-post clearfix">
-                                            <div class="wt-post-media">
-                                                <img src="images/blog/recent-blog/pic1.jpg" alt="">
-                                            </div>
-                                            <div class="wt-post-info">
-                                                <div class="wt-post-meta">
-                                                    <ul>
-                                                        <li class="post-author">25 May</li>
-                                                    </ul>
-                                                </div>                                            
-                                                <div class="wt-post-header">
-                                                    <a href="javascript:;" class="post-title">Planning approved for restoration town hall.</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="widget-post clearfix">
-                                            <div class="wt-post-media">
-                                                <img src="images/blog/recent-blog/pic2.jpg" alt="">
-                                            </div>
-                                            <div class="wt-post-info">
-                                                <div class="wt-post-meta">
-                                                    <ul>
-                                                        <li class="post-author">28 Dec</li>
-                                                    </ul>
-                                                </div>                                            
-                                                <div class="wt-post-header">
-                                                    <a href="javascript:;" class="post-title">Planning approved for restoration town hall.</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                       <div class="col-lg-3 col-md-6">  
-                        <div class="widget widget_newsletter">
-                            <h3 class="widget-title">Newsletter</h3>
-                                <p>Join our subscribers list to get the latest news, updates and special offers delivered directly in your inbox.</p>
-                                <div class="newsletter-input">
-                                  <div class="input-group">
-                                    <input id="email" type="text" class="form-control" name="email" placeholder="Enter your email">
-                                    <div class="input-group-append">
-                                      <button type="submit" class="input-group-text nl-search-btn text-black site-bg-primary title-style-2">Subscribe</button>
-                                    </div>
-                                  </div>
-                                </div>
-                        </div>
-                        
-                       </div> 
-
-                    </div>
-                </div>
-            </div>
-            <!-- FOOTER COPYRIGHT -->
-					
-            <div class="footer-middle">
-            
-           	 	<div class="container">
-                    <div class="footer-middle-content">
-                        <div class="logo-footer">
-                            <a href="index.html"><img src="images/logo-light.png" alt="" ></a>
-                        </div>
-                        
-                        <ul class="copyrights-nav"> 
-                            <li><a href="javascript:void(0);">Terms  &amp; Condition</a></li>
-                            <li><a href="javascript:void(0);">Privacy Policy</a></li>
-                            <li><a href="contact-1.html">Contact Us</a></li>
-                        </ul>
-                        
-                        <ul class="social-icons  wt-social-links footer-social-icon">
-                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                        </ul>                     
-                    </div>
-                </div>  
-                                                  
-            </div>                    
-            <div class="footer-bottom">
-              <div class="container">
-                <div class="wt-footer-bot-left d-flex justify-content-center">
-                    <span class="copyrights-text">© 2020 Your Company. Designed By <span class="site-text-primary">Thewebmax</span></span>
-                </div>
-              </div>   
-            </div>   
-
-
-        </footer>
-        <!-- FOOTER END -->
+                      </div>   
+                    </div>   
+        
+        
+                </footer>
+                <!-- FOOTER END -->
 
      
 
